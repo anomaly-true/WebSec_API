@@ -1,0 +1,24 @@
+{
+    "name": "myass",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "concurrently \"node index.js\" \"node test.js\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "discord.js": "^13.3.1",
+        "dotenv": "^11.0.0",
+        "express": "^4.17.1",
+        "moment": "^2.29.1",
+        "mongoose": "^6.0.13",
+        "node-fetch": "^2.6.5"
+    },
+    "engines": {
+        "node": "17.0.1"
+    }
+}
